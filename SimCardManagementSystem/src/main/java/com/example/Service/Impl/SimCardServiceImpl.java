@@ -57,7 +57,7 @@ public class SimCardServiceImpl implements SimCardService
 		_simcard.setEmail(_simcard.getEmail());
 		_simcard.setTotal_customer(_simcard.getTotal_customer());
 		
-		return simcardRepository.save(_simcard) ;
+		return simcardRepository.save(simcard) ;
 	}
 
 	//implement the findByName method
