@@ -61,7 +61,7 @@ public class CustomerServiceImpl implements CustomerService
 		_customer.setSim_no(_customer.getSim_no());
 		_customer.setStatus(_customer.getStatus());
 		
-		return customerrepository.save(_customer);
+		return customerrepository.save(customer);
 	}
 	//implement the findByName method
 	@Override
